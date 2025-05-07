@@ -1,42 +1,23 @@
 # 📊 Análisis Exploratorio de Ventas en Amazon 2025  
 
 ## 📌 Descripción  
-Este proyecto realiza un análisis exploratorio sobre las ventas de Amazon en 2025, enfocándose en patrones de compra, rentabilidad y tendencias del mercado. Se procesaron los datos con Python y se visualizaron los hallazgos en Power BI.  
+Este proyecto examina tendencias y patrones en los datos de ventas de Amazon, revelando información clave sobre la actividad comercial y el comportamiento de los clientes.  
 
 ## 🛠️ Herramientas Utilizadas  
 - **![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) (pandas)** para la manipulación y análisis de datos.  
-- **![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)** para la presentación de visualizaciones interactivas.  
+- **![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)** para la presentación de visualizaciones interactivas. 
 
 ## 🔎 Procesamiento y Limpieza de Datos  
-- Conversión de la columna `Date` al tipo datetime para análisis temporal.  
-- Transformación de columnas categóricas como `Product`, `Category`, `Customer Name`, y `Payment Method` al tipo 'category' para optimización.  
-- Verificación de duplicados, sin detección de registros repetidos.  
+Para garantizar la calidad del análisis, se ajustaron los formatos de las fechas y se optimizaron las categorías de datos. Se verificó la integridad del conjunto de datos, descartando la presencia de duplicados.  
 
-## 📈 Hallazgos Clave  
-
-### Análisis Univariante  
-- **Clientes Frecuentes:** Emma Clark, Jane Smith y Olivia Wilson.  
-- **Resumen Estadístico:**  
-  - Precio promedio de productos: 343.58  
-  - Cantidad promedio comprada: 2.86  
-  - Ventas totales promedio: 975.38  
-
-### Análisis Bivariante  
-- **Categoría Más Vendida:** "Electronics" lidera en ventas, seguida de "Clothing" y "Home Appliances".  
-
-### Análisis Multivariante  
-- **Correlación Fuerte:** El `Price` y `Total Sales` presentan una relación positiva.  
-- **Prueba de Chi-Cuadrado:** No se encontró relación significativa entre categorías de productos y métodos de pago.  
+## 📈 Principales Insights  
+El estudio destaca la importancia de ciertos segmentos de clientes recurrentes y la notable dominancia de productos electrónicos en las ventas. Se identificaron patrones en los métodos de pago y se realizaron pruebas estadísticas para evaluar relaciones clave entre las variables.  
 
 ## 📊 Visualizaciones  
-- Gráficos de barras para comparar categorías más vendidas.  
-- Gráficos de líneas para tendencias de ventas a lo largo del tiempo.  
-- Diagramas de dispersión para correlación entre precio y cantidad vendida.  
+Se presentan gráficos que ilustran las fluctuaciones en las ventas, la distribución de compras por categoría y la relación entre los factores de precio y volumen de venta.  
 
-## 🚀 Conclusiones y Recomendaciones  
-- **Enfoque en Electrónica:** Mayor inversión en la categoría más rentable.  
-- **Gestión de Inventario:** Ajustes estratégicos para optimizar stock según demanda.  
-- **Estrategias de Marketing:** Promociones específicas por categorías y tendencias de compra.  
+## 🚀 Implicaciones y Recomendaciones  
+Con base en los resultados, se plantean estrategias para fortalecer la rentabilidad y optimizar la gestión de inventarios. Se sugiere mantener un enfoque en las categorías más exitosas y mejorar las tácticas de promoción.  
 
 ## ✍️ Autor  
 Lucas López  
