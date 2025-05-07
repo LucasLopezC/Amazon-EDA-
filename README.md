@@ -42,4 +42,4 @@ Este proyecto realiza un análisis exploratorio sobre las ventas de Amazon en 20
 Lucas López  
 
 ## 🔗 Contacto  
-[LinkedIn](https://www.linkedin.com/in/lucaslopezcoluchi/) | [GitHub](https://github.com/LucasLopezC)  
+[LinkedIn](https://www.linkedin.com/in/lucaslopezcoluchi/) | [Gmail](lucaslopezfx@gmail.com)  
